@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <style>
-        h1{text-align:center;}
-        h2{text-align:center;}
+        h1{text-align:center;background-color: #fcd8e5;color: #eb4879;font-size: 40px;}
+        h2{text-align:center;font-size: 23px;}
+        h3{text-align:center;color: #23b35a;font-size: 20px;}
+        h4{text-align:center;font-size: 20px;}
         #map{position:absolute;top:0;bottom:0;left:0;right:0}
     </style>
     <title>3190300859林殷如-我的家乡</title>
@@ -21,7 +23,7 @@
 
         var marker = L.marker([5.414329, 100.329062]).addTo(map);
         marker.bindPopup(
-            '<b><h1>我的家乡</h1></b><h2><a href="https://baike.baidu.com/item/%E4%B9%94%E6%B2%BB%E5%B8%82/6663203?fr=aladdin" target="_blank">马来西亚 -- 槟城州 -- 乔治市</a></h2><h3>~~~~~~~~著名地标 ：光大大厦~~~~~~~~</h3><div><img style="width:100%" src="https://img1.baidu.com/it/u=4262357820,983240298&fm=253&fmt=auto&app=138&f=JPEG?w=786&h=500" alt="著名地标 ：光大大厦"/></div>'
+            '<b><h1>我的家乡</h1></b><h2><a href="https://baike.baidu.com/item/%E4%B9%94%E6%B2%BB%E5%B8%82/6663203?fr=aladdin" style="color:#218fd8" target="_blank">马来西亚 -- 槟城州 -- 乔治市</a></h2><h3>~~著名地标 ：光大大厦~~</h3><div><img style="width:100%" src="https://img1.baidu.com/it/u=4262357820,983240298&fm=253&fmt=auto&app=138&f=JPEG?w=786&h=500" alt="著名地标 ：光大大厦"/></div><div><a href="http://www.mafengwo.cn/i/15520725.html" style="color:#f79c48"><h4>点击此处查看其景色</a></h4></div>'
             );
         marker.openPopup();
     </script>
